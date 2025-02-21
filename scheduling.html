@@ -52,54 +52,7 @@
         <div class="col-lg-8">
           <div class="form-container">
             <h2 class="text-center mb-4">Schedule Now</h2>
-            <!-- Form with action pointing to your backend -->
-            <form action="/schedule" method="POST">
-              <!-- Service Selection -->
-              <div class="mb-3">
-                <label for="service" class="form-label">Select Service</label>
-                <select class="form-select" id="service" name="service" required>
-                  <option value="">Choose a service...</option>
-                  <option value="lawn-care">Lawn Care</option>
-                  <option value="snow-removal">Snow Removal</option>
-                  <option value="landscaping">Landscaping</option>
-                </select>
-              </div>
-
-              <!-- Date and Time -->
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label for="date" class="form-label">Date</label>
-                  <input type="date" class="form-control" id="date" name="date" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="time" class="form-label">Time</label>
-                  <input type="time" class="form-control" id="time" name="time" required>
-                </div>
-              </div>
-
-              <!-- Contact Information -->
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required>
-              </div>
-
-              <!-- Additional Notes -->
-              <div class="mb-3">
-                <label for="notes" class="form-label">Additional Notes</label>
-                <textarea class="form-control" id="notes" name="notes" rows="4" placeholder="Any special requests or instructions?"></textarea>
-              </div>
-
-              <!-- Submit Button -->
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Schedule Now</button>
+            
               </div>
             </form>
           </div>
